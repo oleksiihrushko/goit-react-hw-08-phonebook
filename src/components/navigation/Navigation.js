@@ -7,7 +7,7 @@ const Navigation = () => {
     <nav className={styles.nav}>
       <NavLink
         exact
-        to="goit-react-hw-08-phonebook/login"
+        to="/login"
         className={styles.NavigationLink + ' ' + styles.navLink}
         activeClassName={styles.NavigationLinkActive}
       >
@@ -15,7 +15,7 @@ const Navigation = () => {
       </NavLink>
       <br />
       <NavLink
-        to="goit-react-hw-08-phonebook/register"
+        to="/register"
         className={styles.NavigationLink + ' ' + styles.navLink}
         activeClassName={styles.NavigationLinkActive}
       >

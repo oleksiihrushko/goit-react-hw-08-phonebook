@@ -23,7 +23,7 @@ const SignUpPage = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    dispatch(authOperations.register(name, email, password));
+    dispatch(authOperations.register({ name, email, password }));
   };
 
   const styles = {
@@ -74,7 +74,7 @@ const SignUpPage = () => {
         type="submit"
         onClick={handleSubmit}
       >
-        Login
+        Register
       </Button>
     </form>
   );
